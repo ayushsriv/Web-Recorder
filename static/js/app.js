@@ -120,7 +120,7 @@ function createDownloadLink(blob) {
 async function speak(){
     console.log("speak called");
     if ("speechSynthesis" in window) {
-        const response = await fetch('http://127.0.0.1:5000/speak');
+        const response = await fetch('/speak');
         var data = await response.json();
         console.log(data.aib_move)
         let msg = new SpeechSynthesisUtterance(data.aib_move);

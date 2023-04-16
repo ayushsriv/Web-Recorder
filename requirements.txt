@@ -1,0 +1,5 @@
+chess==1.9.4
+Flask==2.2.3
+ipython==7.34.0
+pyttsx3==2.90
+SpeechRecognition==3.9.0
