@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #343a40;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #chess_board {
+    margin: auto;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #recordButton,
+  #stopButton {
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #stopButton:disabled {
+    background-color: #6c757d;
+    cursor: default;
+  }
+  
+  #recordButton:hover,
+  #stopButton:hover {
+    background-color: #c82333;
+  }
+  
