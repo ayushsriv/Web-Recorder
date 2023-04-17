@@ -1,2 +1,2 @@
 
-web: gunicorn -b :5000 main:app
+web: gunicorn main:app
