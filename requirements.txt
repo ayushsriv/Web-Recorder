@@ -24,7 +24,6 @@ prompt-toolkit==3.0.38
 ptyprocess==0.7.0
 PyAudio==0.2.13
 Pygments==2.15.0
-pyobjc==9.1
 requests==2.28.2
 SpeechRecognition==3.9.0
 traitlets==5.9.0
