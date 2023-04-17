@@ -32,4 +32,5 @@ wcwidth==0.2.6
 Werkzeug==2.2.3
 yarg==0.1.9
 zipp==3.15.0
+pyttsx3==2.7
 gunicorn
